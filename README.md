@@ -21,5 +21,3 @@ Bonus
 
 Centralizziamo la Navbar usando un componente Layout
 Gestiamo la classe active per i link attivi nella Navbar
-Fake Store API
-Fake store rest api for your ecommerce or shopping website prototype

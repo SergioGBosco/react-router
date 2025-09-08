@@ -6,8 +6,7 @@ const Header = () => {
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <h2>NavBar</h2>
-            <ul>
+            <ul className='list-unstyled d-flex justify-content-center px5'>
               <li>
                 <NavLink to={"/"}>Home</NavLink>
               </li>
