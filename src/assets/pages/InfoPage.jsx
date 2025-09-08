@@ -3,7 +3,7 @@ import React from 'react'
 const InfoPage = () => {
   return (
     <div>
-      Info
+      <h1>Info</h1>
     </div>
   )
 }
