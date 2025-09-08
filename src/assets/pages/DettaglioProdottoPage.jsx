@@ -1,13 +1,16 @@
 import axios from "axios";
-import { useEffect } from "react"
+import { use, useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 const DettaglioProdottoPage = () => {
   const { id } = useParams();
 
+  const [details, setDetails] = useState([])
+
 
   useEffect(() => {
     axios.get(`https://fakestoreapi.com/products/:${id}`).then(resp => {
-      console.log(resp.data)
+      setDetails(resp.data)
+      console.log(details)
     })
   }, [])
 
